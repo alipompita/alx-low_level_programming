@@ -13,18 +13,7 @@ void print_alphabet_x10(void)
 	for (count = 0; count < 10; count++)
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
-			putchar(ch);
-		putchar(10);
+			_putchar(ch);
+		_putchar(10);
 	}
-}
-
-/**
- * main - starting point
- *
- * Return: 0
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
