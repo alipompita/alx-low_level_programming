@@ -14,25 +14,5 @@ int _islower(int c)
 		result = 1;
 	else
 		result = 0;
-
 	return (result);
-}
-
-/**
- * main - starting point
- *
- * Return: 0
- */
-int main(void)
-{
-	int r;
-
-	r = _islower('H');
-	putchar(r + '0');
-	r = _islower('o');
-	putchar(r + '0');
-	r = _islower(108);
-	putchar(r + '0');
-	putchar(10);
-	return (0);
 }
