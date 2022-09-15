@@ -45,7 +45,7 @@ void times_table(void)
 			if (c < 9)
 			{
 				_putchar(',');
-				_putchar(' ');
+				_putchar(9);
 			} else
 				_putchar('\n');
 		}
