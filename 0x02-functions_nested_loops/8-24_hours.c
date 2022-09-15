@@ -8,6 +8,8 @@
  */
 int get_first(int n)
 {
+	if (n == 10)
+		return (1);
 	while (n > 10)
 		n = n / 10;
 	return (n);
