@@ -8,7 +8,7 @@
  */
 int get_first(int n)
 {
-	while (n > 10)
+	while (n >= 10)
 	{
 		n = n / 10;
 	}
