@@ -8,7 +8,7 @@
  */
 int get_first(int n)
 {
-	while (n > 10)
+	while (n >= 10)
 	{
 		n = n / 10;
 	}
@@ -44,7 +44,6 @@ void times_table(void)
 
 			if (c < 9)
 				_putchar(',');
-				_putchar(' ');
 			else
 				_putchar('\n');
 		}
