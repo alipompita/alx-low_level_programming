@@ -24,16 +24,16 @@ int main(void)
 			buzz = 0;
 
 		if (fizz == 1 && buzz == 1)
-			printf("%d FizzBuzz", i);
+			printf("FizzBuzz");
 		else if (fizz == 1)
-			printf("%d Fizz", i);
+			printf("Fizz");
 		else if (buzz == 1)
-			printf("%d Buzz", i);
+			printf("Buzz");
 		else
 			printf("%d", i);
 
-		if(i < 100)
-			printf(" ");
+		if (i < 100)
+			printf (" ");
 	}
 
 	printf("\n");
