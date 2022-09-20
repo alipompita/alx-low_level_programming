@@ -30,7 +30,9 @@ void puts_half(char *str)
 
 	half = (len - 1) / 2;
 
-	i = len - half - 1;
+	i = len - half;
+	if (len % 2 == 0)
+		i--;
 
 	while (i < len)
 	{
