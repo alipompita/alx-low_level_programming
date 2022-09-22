@@ -1,21 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-/**
- *
- */
-int _strtotal (char *s)
-{
-	int total = 0;
-
-	do
-	{
-		printf("%d\n", *s);
-		total += *s;
-	}
-	while (*s++ != '\0');
-
-	return (total);
-}
 
 /**
  * _strcmp - compares 2 strings
@@ -25,6 +8,5 @@ int _strtotal (char *s)
  */
 int _strcmp(char *s1, char *s2)
 {
-
 	return (*s1 - *s2);
 }
