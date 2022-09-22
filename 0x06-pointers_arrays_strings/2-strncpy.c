@@ -21,6 +21,6 @@ char *_strncpy(char *dest, char *src, int n)
 		else
 			*(dest + i) = src[i];
 	}
-	
+
 	return (dest);
 }
