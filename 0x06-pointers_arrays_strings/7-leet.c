@@ -10,7 +10,7 @@ char *leet(char *s)
 	int i;
 
 	i = 0;
-	while (s[i] != '\n')
+	while (s[i] != '\0')
 	{
 		char l = s[i];
 
