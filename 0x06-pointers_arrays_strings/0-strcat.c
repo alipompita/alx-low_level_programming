@@ -23,15 +23,14 @@ int _strlen(char *s)
  */
 char *_strcat(char *dest, char *src)
 {
-	int old_len, new_len;
+	int old_len;
 	int i, c;
 
 	old_len = _strlen(dest);
-	new_len = old_len + _strlen(src);
 
 	i = old_len;
 	c = 0;
-	while (i < new_len)
+	while (src[c] != '\n')
 	{
 		*(dest + i) = src[c];
 		i++;
