@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strpbrk - find first occurrence of byte 
+ * _strpbrk - find first occurrence of byte
  * in a string
  * @s: source string
  * @accept: candidate string
