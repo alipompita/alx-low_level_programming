@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- * print_diagsums - prints sum of diagonals of array
+/**
+ * print_diagsums - prints sum of diagonals
  * @a: array of integers
  * @size: size of array
  */
@@ -16,6 +16,6 @@ void print_diagsums(int *a, int size)
 		sum1 += a[i];
 	for (x = size - 1; x < max - 1; x += size - 1)
 		sum2 += a[x];
-	
+
 	printf("%d, %d\n", sum1, sum2);
 }
