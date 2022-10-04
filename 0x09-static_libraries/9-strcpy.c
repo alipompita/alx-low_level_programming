@@ -24,5 +24,8 @@ int _strlen(char *s)
  */
 char *_strcpy(char *dest, char *src)
 {
-	char s1[100], s2[100], i;
+	(void) dest;
+	(void) src;
+
+	return (dest);
 }
