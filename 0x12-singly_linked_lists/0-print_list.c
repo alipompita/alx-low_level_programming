@@ -1,14 +1,15 @@
+#include <stddef.h>
 #include "lists.h"
 #include <stdio.h>
 
 /**
- * print_list - A function that prints a linked list
- * @h: pointer t  head of list
- * Return: number of nodes in list as size_t
+ * print_list - prints strings in a linked list
+ * @h: pointer ti head node
+ * Return: size of list
  */
 size_t print_list(const list_t *h)
 {
-	unsigned int nodes = 0;
+	unsigned int elements = 0;
 
 	while (h)
 	{
@@ -19,7 +20,7 @@ size_t print_list(const list_t *h)
 			printf("%s\n", h->str);
 
 		h = h->next;
-		nodes++;
+		elements++;
 	}
-	return (nodes);
+	return (elements);
 }
